@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/body.jpg) no-repeat right bottom;
+    background-size: cover;
+}
+
+.fundotransparente{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header .nome{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin-left: 50px;
+}
+
+header .link{
+    display: flex;
+    gap: 35px;
+}
+
+header .link a{
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .link button{
+    background-color: purple;
+    
+    border-width: 1px;
+    color:  rgba(255, 255, 255, 0.74);
+    margin-right: 50px;
+    width: 60px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+header .link button:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+    color: purple;
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    top: 45%;
+    width: 100vw;
+    margin-top: 14%;
+}
+
+.info p{
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icones img{
+    border-radius: 50%;
+    width: 70px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    
+}
+
+.button a{
+    border: none;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+}
+.button a:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+    color: purple;
+    transform: scale(1.05);
+    transition: .4s;
+}
