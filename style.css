@@ -48,6 +48,7 @@ header .link button{
     margin: 3px 20px 0px 0px;
     width: 90px;
     height: 40px;
+    
 }
 
 .info{
@@ -72,30 +73,15 @@ header .link button{
 
 .icones img{
     border-radius: 50%;
-    width: 70px;
+    width: 40px;
     margin-top: 2em;
     cursor: pointer;
+    
 }
 
 .button{
     display: flex;
     justify-content: center;
     margin-top: 3em;
-    
 }
 
-.button a{
-    border: none;
-    width: 100px;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-}
-.button a:hover{
-    background-color: rgba(255, 255, 255, 0.829);
-    color: purple;
-    transform: scale(1.05);
-    transition: .4s;
-}

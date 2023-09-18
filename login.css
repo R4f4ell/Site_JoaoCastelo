@@ -123,6 +123,11 @@ section{
     margin-top: 30px;
 }
 
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+
 .icones{
     display: flex;
     justify-content: center;
@@ -130,7 +135,7 @@ section{
 }
 
 .icones img{
-    width: 60px;
+    width: 30px;
     border-radius: 50%;
     margin-top: 30px;
     cursor: pointer;

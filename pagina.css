@@ -1,0 +1,157 @@
+/* Estilos gerais da página */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color:  #c59733;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* Estilos da barra de pesquisa na navegação */
+.search-box {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#filtroBairroNav {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+#filtroBairroNav:focus {
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color:  #a3791e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-box button:hover {
+    background-color: #eeaf27;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos do formulário */
+.form {
+    margin-bottom: 20px;
+}
+
+.form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form button[type="submit"] {
+    background-color: #a3791e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%; /* Ocupar a largura total do contêiner */
+}
+
+.form button[type="submit"]:hover {
+    background-color: #c59733;
+}
+
+form .reclamacao{
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos da lista de reclamações */
+.reclamacoes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.reclamacoes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reclamacoes li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #c59733;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
