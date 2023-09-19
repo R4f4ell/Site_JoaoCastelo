@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="noticias.css">
+  <script src="script.js"></script>
+  <title>Notícias</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Pesquisar">
+      <button>Pesquisar</button>
+    </div>
+
+    <div class="user-actions">
+      <a href="inicio.html">
+        <button id="reclame-aqui-button">ReclameAqui</button>
+      </a>
+      
+      <a href="login.html">
+        <button id="login-button">Login</button>
+      </a>
+      
+      <a href="login.html">
+        <button id="">Criar Conta</button>
+      </a>
+      <a href="inicio.html"><button id="logout-button" onclick="logout()">Sair</button></a>
+    </div>
+  </div>
+
+  <ul class="hidden" id="menu">
+    <li><a href="https://exemplo.com/reclameaqui" target="_blank">Informações</a></li>
+    <li><a href="https://exemplo.com/contato" target="_blank">Contatos</a></li>
+  </ul>
+
+  <div class="news-title">
+    <h1>Notícias Recomendadas</h1>
+  </div>
+
+  <div class="news">
+    <div class="news-item">
+      <a href="https://noticias.r7.com/saude/pni-oferece-vacinacao-segura-para-gestantes-e-bebes-15092023" target="_blank">
+        <button onclick="navigate(0)">Leia Aqui</button>
+      </a>
+      <h2>Notícia 1</h2>
+      <p>Conteúdo da notícia 1.</p>
+    </div>
+
+    <div class="news-item">
+      <a href="https://exemplo.com/noticia2" target="_blank">
+        <button onclick="navigate(1)">Leia Aqui</button>
+      </a>
+      <h2>Notícia 2</h2>
+      <p>Conteúdo da notícia 2.</p>
+    </div>
+
+    <div class="news-item">
+      <a href="https://exemplo.com/noticia3" target="_blank">
+        <button onclick="navigate(2)">Leia Aqui</button>
+      </a>
+      <h2>Notícia 3</h2>
+      <p>Conteúdo da notícia 3.</p>
+    </div>
+
+    
+ 
+</body>
+</html>
