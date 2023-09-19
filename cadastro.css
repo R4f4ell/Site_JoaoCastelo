@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/body.jpg) no-repeat right bottom;
+    background-size: cover;
+}
+
+.fundotransparente{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header .nome{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin-left: 50px;
+}
+
+header .link{
+    display: flex;
+    gap: 35px;
+}
+
+header .link a{
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+header .link button{
+    margin: 3px 20px 0px 0px;
+    width: 90px;
+    height: 40px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
