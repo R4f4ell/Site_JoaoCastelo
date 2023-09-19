@@ -1,0 +1,38 @@
+@media screen and (min-width: 320px) and 
+(max-width: 480px){
+    .news-title{
+        font-size: 14px;
+    }
+
+    .news{
+        display: block;
+        width: 100vw;
+        margin: auto;
+    }
+
+    .news .news-item{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    header{
+        width: 100vw;
+    }
+
+    .search-bar{
+        display: none;
+    }
+
+    .user-actions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-actions button{
+        width: 70px;
+        margin: 5px;
+        height: 50px;
+    }
+
+}

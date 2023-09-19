@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .fundotransparente .nome p{
+        display: none
+    }
+
+    .fundotransparente .link {
+        display: none;
+    }
+
+    .info div{
+        margin-top: 70px;
+    }
+
+    .info div p:first-child{
+        font-size: 20px;
+    }
+
+    .button a{
+        width: 320px;
+    }
+
+    section .tamanho{
+        width: 90%;
+    }
+
+    .lembrar div:first-child{
+        margin-left: 20px;
+    }
+}
