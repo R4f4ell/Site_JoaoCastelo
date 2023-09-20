@@ -1,4 +1,4 @@
-// No seu arquivo java.js
+
 // Crie um array para armazenar todas as reclamações
 const reclamacoes = [];
 
@@ -20,7 +20,7 @@ function exibirReclamacoes() {
     });
 }
 
-// No seu arquivo java.js
+
 // Seletor do formulário
 const form = document.getElementById("reclamacaoForm");
 
@@ -48,7 +48,7 @@ form.addEventListener("submit", function (e) {
     document.getElementById("rua").value = "";
 });
 
-// No seu arquivo java.js
+
 
 // Função para filtrar reclamações por bairro na barra de navegação
 function filtrarReclamacoesNav() {
