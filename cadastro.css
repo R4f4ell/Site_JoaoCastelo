@@ -167,3 +167,8 @@ article .NomeSobrenome{
     justify-content: center;
     margin-top: 20px;
 }
+
+.butao a{
+    text-decoration: none;
+    color: white;
+}
