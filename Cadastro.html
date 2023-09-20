@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro</title>
 </head>
@@ -22,9 +23,9 @@
 
         <section>
             <article>
-                <h2>Cadastro</h2>
                 <form>
-                    <div>
+                    <h2>Cadastro</h2>
+                    <div class="NomeSobrenome">
                         <div>
                             <input type="text" id="nome" placeholder="Primeiro Nome:">
                         </div>
@@ -32,10 +33,11 @@
                             <input type="text" id="sobrenome" placeholder="Segundo Nome">
                         </div>
                     </div>
-                    <div>
+
+                    <div class="GeneroCel">
                         <div>
                             <select name="genero" id="genero">
-                                <option selected>--- Escolha ---</option>
+                                <option selected>Gênero:</option>
                                 <option>Masculino</option>
                                 <option>Feminino</option>
                                 <option>Outro</option>
@@ -46,7 +48,8 @@
                             <input type="tel" id="celular" placeholder="Celular:">
                         </div>
                     </div>
-                    <div>
+
+                    <div class="RuaCep">
                         <div>
                             <input type="text" id="rua" placeholder="Rua">
                         </div>
@@ -54,21 +57,24 @@
                             <input type="text" id="cep" placeholder="Cep:">
                         </div>
                     </div>
+
                     <div>
-                        <div>
+                        <div class="cidade">
                             <input type="text" id="cidade" placeholder="Cidade:">
                         </div>
                     </div>
+
                     <div>
-                        <div>
+                        <div class="email">
                             <input type="email" id="cidade" placeholder="Email::">
                         </div>
                     </div>
-                    <div>
-                        <button>Cadastrar-se</button>
+
+                    <div class="butao">
+                        <button class="btn btn-success">Cadastrar-se</button>
                     </div>
                 </form>
             </article>
         </section>
 </body>
-</html>
+</html> 

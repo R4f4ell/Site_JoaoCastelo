@@ -57,3 +57,86 @@ section{
     align-items: center;
     height: 80vh;
 }
+
+article{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+}
+
+article h2{
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+}
+
+article .NomeSobrenome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.NomeSobrenome input{
+    width: 180px;
+    height: 20px;
+    padding: 2px;
+}
+
+.GeneroCel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    margin: 15px 0px;
+}
+
+.GeneroCel input{
+    width: 180px;
+    height: 20px;
+    padding: 2px;
+}
+.GeneroCel select{
+    width: 180px;
+    height: 28px;
+}
+
+.RuaCep{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.RuaCep input{
+    width: 180px;
+    height: 20px;
+    padding: 2px;
+}
+
+.cidade{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cidade input{
+    width: 100%;
+    height: 20px;
+    padding: 2px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 30px 0px;
+    width: 100%;
+}
+
+.email input{
+    width: 100%;
+    height: 20px;
+    padding: 2px;
+}
