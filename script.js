@@ -4,14 +4,6 @@ function toggleMenu() {
     menu.classList.toggle('visible');
   }
   
-  // Adicionar um evento de clique a cada notícia
-  newsItems.forEach((item, index) => {
-    item.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % newsItems.length;
-      showCurrentNews();
-    });
-  });
-  
   // Mostrar a primeira notícia ao carregar a página
   showCurrentNews();
 
